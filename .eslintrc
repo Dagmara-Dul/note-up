@@ -23,5 +23,20 @@
         "react/react-in-jsx-scope": "off",
         "import/no-named-as-default": 0
     
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "paths": [
+                    "src"
+                ],
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".ts",
+                    ".tsx"
+                ]
+            }
+        }
     }
 }
